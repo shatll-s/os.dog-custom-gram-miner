@@ -1,7 +1,7 @@
 #!/bin/bash
 [ -t 1 ] && . /dog/colors
 
-GIT_REPO='https://github.com/TrueCarry/JettonGramGpuMiner'
+GIT_REPO='https://github.com/ChipiCoin/ChipiCoinGpuMiner'
 
 function NeedToInstall() {
 	local ver=`apt-cache policy $1 | grep Installed | sed 's/Installed://; s/\s*//'`
